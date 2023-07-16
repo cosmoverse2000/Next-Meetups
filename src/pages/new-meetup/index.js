@@ -17,7 +17,8 @@ const NewMeetup = () => {
     const data = await response.json();
     // console.log("response from back", data);
 
-    // router.push("/");
+    router.push("/");
+    // router.replace(`/${Date.now()}`);
   };
   return (
     <>
